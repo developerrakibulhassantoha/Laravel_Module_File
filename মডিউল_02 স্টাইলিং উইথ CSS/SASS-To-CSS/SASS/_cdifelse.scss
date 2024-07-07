@@ -1,0 +1,11 @@
+$dark-mode:true;
+.navbar{
+    @if $dark-mode{
+        background-color: aqua;
+        color: #000;
+    }
+    @else{
+        background-color: black;
+        color: greenyellow;
+    }
+}

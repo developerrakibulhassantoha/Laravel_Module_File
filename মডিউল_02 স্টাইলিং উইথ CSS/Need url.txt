@@ -1,0 +1,9 @@
+Coolor paletters =  https://coolors.co/palettes/trending
+
+google font= https://fonts.google.com/
+
+fontpair = https://www.fontpair.co/
+
+W3School = https://www.w3schools.com/
+
+CSS References = https://tympanus.net/codrops/css_reference/

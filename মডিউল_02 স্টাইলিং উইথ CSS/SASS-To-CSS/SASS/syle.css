@@ -1,0 +1,58 @@
+.button-primary {
+  font-size: 25px;
+  padding: 10px 30px;
+  margin: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: yellow;
+}
+
+.button-secondary {
+  font-size: 25px;
+  padding: 10px 30px;
+  margin: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: green;
+}
+
+.button-warning {
+  font-size: 25px;
+  padding: 10px 30px;
+  margin: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: red;
+}
+
+.button-danger {
+  font-size: 25px;
+  padding: 10px 30px;
+  margin: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgba(63, 51, 144, 0.1254901961);
+}
+
+h1 {
+  color: red;
+  font-size: 20px;
+}
+
+body {
+  background-color: rgba(63, 51, 144, 0.1254901961);
+}
+
+.btn-btn {
+  background-color: red;
+  color: green;
+  font-size: 20px;
+}
+
+.btn-btn {
+  font-size: 40px;
+}
+
+@media screen and (min-width: 576px) {
+  .btn-btn {
+    font-size: 18pz;
+  }
+}
+
+/*# sourceMappingURL=syle.css.map */

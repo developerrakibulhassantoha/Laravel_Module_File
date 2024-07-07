@@ -1,0 +1,21 @@
+.btn-base{
+    font-size: 20px;
+    color: red;
+    padding: 10px 20px;
+}
+.btn-primary{
+    @extend .btn-base;
+    background-color: green;
+}
+.btn-secondary{
+    @extend .btn-base;
+    background-color: rgb(0, 2, 128);
+}
+.btn-Warning{
+    @extend .btn-base;
+    background-color: rgb(43, 0, 61);
+}
+.btn-Contact{
+    @extend .btn-base;
+    background-color: rgb(12, 12, 12);
+}

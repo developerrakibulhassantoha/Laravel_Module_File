@@ -1,0 +1,112 @@
+<script>
+
+// Named Function its Parameters & Return
+
+
+function addTwoNumber(){
+    let a=10;
+    let b=20;
+    let c=a+b;
+    document.write(c);
+}
+
+
+addTwoNumber();
+addTwoNumber();
+addTwoNumber();
+addTwoNumber();
+addTwoNumber();
+
+
+function addTwoNumber(num1,num2){
+    let a=num1;
+    let b=num2;
+    let c=a+b;
+    document.write(c);
+}
+
+addTwoNumber(10,40)
+
+
+
+
+
+function MyFun1(){
+    let a=10;
+    let b=40;
+    return a+b;
+}
+
+
+
+function MyFun2(){
+    let a=10;
+    let b=40;
+    return a-b;
+}
+
+let x=MyFun1()+MyFun2();
+alert(x);
+
+
+
+
+
+
+
+
+
+// Anonymous Functions
+const greet= function(name){
+    alert("Hello "+name);
+}
+greet("OSTAD")
+
+
+
+// Arrow Functions
+const greet=(name)=>{
+    alert("Hello "+name);
+}
+
+
+
+greet("OSTAD Arrow")
+
+
+
+
+
+
+
+// Immediately Invoked Function Expressions (IIFE)
+
+
+(()=>{
+    alert("Hello Ostad IIF")
+})()
+
+
+
+
+
+
+// Constructor Functions
+
+    //* Write,Execute --YES
+    //* Return --NO
+    //* OOP
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>

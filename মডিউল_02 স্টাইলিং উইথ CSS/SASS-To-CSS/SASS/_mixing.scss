@@ -1,0 +1,22 @@
+@mixin button-default-style($back-color){
+    font-size: 25px;
+    padding: 10px 30px;
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: $back-color;
+    
+}
+$text-color: black;
+.button-primary{
+    @include button-default-style($primary-color);
+   
+}
+.button-secondary{
+    @include button-default-style($secondary-color);
+}
+.button-warning{
+    @include button-default-style($warning-color);
+}
+.button-danger{
+    @include button-default-style($danger-color);
+}

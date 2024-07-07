@@ -1,0 +1,5 @@
+Word_file download:
+https://dev.mysql.com/doc/index-other.html
+
+beekeeperstudio download:
+https://www.beekeeperstudio.io/

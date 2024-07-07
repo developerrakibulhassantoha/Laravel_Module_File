@@ -1,0 +1,9 @@
+@function myDiv($number){
+    @return $number *2;
+}
+.box{
+    background-color:black;
+    width: mayDiv(100px);
+    height: myDiv(50px);
+    
+}

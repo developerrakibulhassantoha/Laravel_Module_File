@@ -1,0 +1,42 @@
+@import 'variables';
+@import 'mixing';
+@import 'cdfor';
+@import 'cdifelse';
+@import 'extend';
+@import 'function';
+
+$default-font-size:20px;
+
+.math1{
+    font-size: $default-font-size+10;
+}
+.math2{
+    font-size: $default-font-size*10;
+}
+.math3{
+    font-size: $default-font-size+10;
+}
+.math4{
+    font-size: $default-font-size/4;
+}
+
+h1{
+    color:$secondary;
+    font-size: $title-font-size;
+}
+body{
+    background-color: $danger-color;
+}
+.btn-btn{
+    background-color: $warning-color;
+    color: $secondary-color;
+    font-size: $title-font-size;
+}
+.btn-btn{
+    font-size: map-get($title-font-size-responsive,lg);
+}
+@media screen and (min-width:576px){
+    .btn-btn{
+        font-size: map-get($title-font-size-responsive,sm);
+    } 
+}

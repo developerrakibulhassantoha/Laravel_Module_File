@@ -1,0 +1,19 @@
+What is SASS?
+Installation-> windows=>npm instal -g sass
+Installation-> Mackbook=>sudo npm instal -g sass
+.SASS VS .SCSS
+sass style.scss style.css
+----------------
+Key features of sass
+----------------
+i.	Sass Variables
+ii.	Sass Nesting
+iii.	Sass @import and Partials
+iv.	Sass Mixins
+v.	Passing Variables to Mixin
+vi.	Sass @extend and inheritance
+vii.	Mathematical Operations
+viii.	Control Directives @if @else
+ix.	Control Directives @for
+x.	Control Directives @each
+xi.	Sass Function
